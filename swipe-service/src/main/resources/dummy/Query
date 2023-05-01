@@ -1,0 +1,33 @@
+db.getCollection("cakeSales").aggregate([{
+$match: {orderDate: { $gte: ISODate("2020-05-18T00:00:00Z"), $lt: ISODate("2020-05-18T23:59:59Z") }}
+},
+
+{
+
+$group: {
+
+_id: "$type",
+
+maxTime: { $max: "$orderDate" } ,
+
+minTime: { $min: "$orderDate" }
+
+// Get the maximum time for the date
+
+}
+
+},
+
+{
+
+$project: {
+
+timeInhrs:{$divide: [{$subtract: ["$maxTime", "$minTime"]},3600000]},
+
+maxtimeValue:"$maxTime",
+
+mintimeValue:"$minTime" }
+
+}
+
+]);

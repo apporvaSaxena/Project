@@ -1,0 +1,74 @@
+[
+  {
+    "employeeId": 103,
+    "employeeName": "Ved",
+    "swipeType": "SWIPE_IN",
+    "swipeTime": "19-04-2023 09:00:00"
+  },
+  {
+    "employeeId": 103,
+    "employeeName": "Ved",
+    "swipeType": "SWIPE_OUT",
+    "swipeTime": "19-04-2023 12:30:00"
+  },
+  {
+    "employeeId": 103,
+    "employeeName": "Ved",
+    "swipeType": "SWIPE_IN",
+    "swipeTime": "19-04-2023 14:00:00"
+  },
+  {
+    "employeeId": 103,
+    "employeeName": "Ved",
+    "swipeType": "SWIPE_OUT",
+    "swipeTime": "19-04-2023 15:30:00"
+  },
+  {
+    "employeeId": 103,
+    "employeeName": "Ved",
+    "swipeType": "SWIPE_IN",
+    "swipeTime": "19-04-2023 16:00:00"
+  },
+  {
+    "employeeId": 103,
+    "employeeName": "Ved",
+    "swipeType": "SWIPE_OUT",
+    "swipeTime": "19-04-2023 17:30:00"
+  },
+  {
+    "employeeId": 102,
+    "employeeName": "Rajeshree",
+    "swipeType": "SWIPE_IN",
+    "swipeTime": "19-04-2023 09:00:00"
+  },
+  {
+    "employeeId": 102,
+    "employeeName": "Rajeshree",
+    "swipeType": "SWIPE_OUT",
+    "swipeTime": "19-04-2023 10:00:00"
+  },
+  {
+    "employeeId": 102,
+    "employeeName": "Rajeshree",
+    "swipeType": "SWIPE_IN",
+    "swipeTime": "19-04-2023 10:30:00"
+  },
+  {
+    "employeeId": 102,
+    "employeeName": "Rajeshree",
+    "swipeType": "SWIPE_OUT",
+    "swipeTime": "19-04-2023 15:30:00"
+  },
+  {
+    "employeeId": 101,
+    "employeeName": "Apporva",
+    "swipeType": "SWIPE_IN",
+    "swipeTime": "19-04-2023 09:00:00"
+  },
+  {
+    "employeeId": 102,
+    "employeeName": "Apporva",
+    "swipeType": "SWIPE_OUT",
+    "swipeTime": "19-04-2023 11:30:00"
+  }
+]
